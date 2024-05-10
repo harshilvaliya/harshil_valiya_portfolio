@@ -42,7 +42,7 @@ export const experiencesData = [
   {
     title: "BE - IT",
     location: "LDRP-ITR, Gandhinagar, Gujarat",
-    description: "Pursuing bechlor's degree in IT engg.",
+    description: "Pursuing bachelor's degree in IT engineering.",
     icon: React.createElement(LuGraduationCap),
     date: "2021-2025",
   },

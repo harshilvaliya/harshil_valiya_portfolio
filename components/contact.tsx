@@ -38,7 +38,7 @@ export default function Contact() {
         </a>{" "}
         or message through this form.
       </p>
-
+      
       <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
