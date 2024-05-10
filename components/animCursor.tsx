@@ -15,8 +15,8 @@ const AnimCursor = (props: Props) => {
       outerAlpha={0.2}
       innerScale={0.7}
       outerScale={2}
-      outerStyle={{ mixBlendMode: "difference" }} // Pass as an object
-      innerStyle={{ mixBlendMode: "difference" }} // Pass as an object
+      // outerStyle={{ mixBlendMode: "difference" }} // Pass as an object
+      // innerStyle={{ mixBlendMode: "difference" }} // Pass as an object
     />
   );
 };
