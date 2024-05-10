@@ -13,3 +13,22 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+::selection {
+  color: blueviolet;
+  background-color: lightpink;
+}
+
+body::-webkit-scrollbar {
+  width: 14px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #b8affd; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blueviolet; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 4px solid #b8affd; /* creates padding around scroll thumb */
+}
