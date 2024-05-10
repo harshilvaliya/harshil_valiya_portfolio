@@ -11,14 +11,14 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[45rem] text-center leading-loose sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
+      <p className="mb-3 text-lg">
         I'm in the final year of my Bachelor's degree in{" "}
         <span className="font-medium italic"> Information Technology </span> ,
         and I'm quite interested in{" "}
@@ -30,7 +30,7 @@ export default function About() {
         and further develop my knowledge.
       </p>
 
-      <p>
+      <p className="mt-3 text-lg">
         When I'm not coding, I enjoy playing{" "}
         <span className="italic font-medium">video games</span> & watching{" "}
         <span className="italic font-medium">movies</span>.

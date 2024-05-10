@@ -1,12 +1,14 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaFigma } from "react-icons/fa";
-import { FaCode } from 'react-icons/fa';
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { FaCode } from "react-icons/fa";
+import Crunchyroll from "@/public/crunchyroll.png";
+import Login from "@/public/login.png";
+import GiftConnect from "@/public/GiftConnect.png";
+import NicoRobin from "@/public/NicoRobin.png";
+import PetMania from "@/public/Pet-Mania.png";
+import Tshirt from "@/public/back.jpeg";
 
 export const links = [
   {
@@ -18,13 +20,14 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
     name: "Skills",
     hash: "#skills",
   },
+  {
+    name: "Projects",
+    hash: "#projects",
+  },
+
   {
     name: "Experience",
     hash: "#experience",
@@ -71,25 +74,55 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Pet Mania",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This e-commerce project was my full-stack development work. Customers can browse the website and purchase products for their pets online.",
+    tags: ["Next.js", "Tailwind", "TypeScript"],
+    imageUrl: PetMania,
+    projectUrl: "https://github.com/special-char/grinding-pandas-pet/tree/main",
   },
   {
-    title: "rmtDev",
+    title: "GiftConnect",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I designed the user interface (UI) for our project 'GiftConnect' mobile application and website during the hackathon.",
+    tags: ["Figma"],
+    imageUrl: GiftConnect,
+    projectUrl:
+      "https://drive.google.com/drive/folders/14z5q_GQ9NrjZMSeCXS07JmKhxYEbzsSy?usp=drive_link",
   },
   {
-    title: "Word Analytics",
+    title: "Log In & Sign Up Page",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I created a single page for this basic project that allows users to sign up and log in. This is a simple component that can be adapted to various projects.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: Login,
+    projectUrl: "https://github.com/harshilvaliya/log-in-page",
+  },
+  {
+    title: "Wallpapers",
+    description:
+      "I occasionally design desktop as well as smartphone wallpapers in my free time.",
+    tags: ["Figma", "PixelLab"],
+    imageUrl: NicoRobin,
+    projectUrl:
+      "https://drive.google.com/drive/folders/1zU7kBulxNsddgT0OjCTWooHX0_Esk5fw?usp=drive_link",
+  },
+  {
+    title: "Crunchyroll",
+    description:
+      "This is the landing page for the anime streaming service 'Crunchyroll'. This web page is static and includes minimal animations.",
+    tags: ["HTML", "CSS"],
+    imageUrl: Crunchyroll,
+    projectUrl: "https://github.com/harshilvaliya/anime-site",
+  },
+  {
+    title: "T-shirt Design",
+    description:
+      "I designed t-shirt for our event 'Ultimate Clash' which is part of college's tech fest 'Xenesis'.",
+    tags: ["Figma"],
+    imageUrl: Tshirt,
+    projectUrl:
+      "https://drive.google.com/drive/folders/1JxJNoxiG3o2SAVhs8uvzowyu4ehp3JRE?usp=drive_link",
   },
 ] as const;
 
