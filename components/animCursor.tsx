@@ -1,7 +1,7 @@
 import React from "react";
 import AnimatedCursor from "react-animated-cursor";
 
-type Props = {};
+type Props = { outerStyle?: string; innerStyle?: string };
 
 const AnimCursor = (props: Props) => {
   return (
