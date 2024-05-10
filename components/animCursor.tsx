@@ -1,7 +1,10 @@
 import React from "react";
 import AnimatedCursor from "react-animated-cursor";
 
-type Props = { outerStyle?: string; innerStyle?: string };
+type Props = {
+  outerStyle?: React.CSSProperties;
+  innerStyle?: React.CSSProperties;
+};
 
 const AnimCursor = (props: Props) => {
   return (
@@ -12,8 +15,8 @@ const AnimCursor = (props: Props) => {
       outerAlpha={0.2}
       innerScale={0.7}
       outerScale={2}
-      outerStyle="mix-blend-mode: difference;"
-      innerStyle="mix-blend-mode: difference;"
+      outerStyle={{ mixBlendMode: "difference" }} // Pass as an object
+      innerStyle={{ mixBlendMode: "difference" }} // Pass as an object
     />
   );
 };
