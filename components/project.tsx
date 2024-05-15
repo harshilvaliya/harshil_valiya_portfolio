@@ -59,10 +59,10 @@ export default function Project({
             transition 
             duration-700
             group-hover:scale-[1.04] 
-            group-hover:-translate-x-40 
+            group-hover:-translate-x-32
             group-hover:translate-y-3 
             group-hover:-rotate-2 
-            group-even:group-hover:translate-x-40 
+            group-even:group-hover:translate-x-32 
             group-even:group-hover:translate-y-3 
             group-even:group-hover:rotate-2 
             group-even:right-[initial] 

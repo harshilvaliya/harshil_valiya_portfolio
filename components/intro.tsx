@@ -66,7 +66,7 @@ export default function Intro() {
         <span className="font-bold"> Full-Stack developer.</span> I enjoy
         building
         <span className="italic"> sites</span>. My focus is
-        <span className="font-bold"> React (Next.js)</span>.
+        <span className="font-bold"> Next.js </span>.
       </motion.h1>
 
       <motion.div
