@@ -4,7 +4,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import { FaFigma } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import Crunchyroll from "@/public/crunchyroll.png";
-import Login from "@/public/login.png";
+import Dictionary from "@/public/dictionary-app.png";
 import GiftConnect from "@/public/GiftConnect.png";
 import bhitChitram from "@/public/bhitChitram.png";
 import PetMania from "@/public/Pet-Mania.png";
@@ -97,13 +97,12 @@ export const projectsData = [
     projectUrl: "https://github.com/special-char/grinding-pandas-pet/tree/main",
   },
   {
-    title: "T-shirt Design",
+    title: "The Dictionary App",
     description:
-      "I designed t-shirt for our event 'Ultimate Clash' which is part of college's tech fest 'Xenesis'.",
-    tags: ["Figma"],
-    imageUrl: Tshirt,
-    projectUrl:
-      "https://drive.google.com/drive/folders/1JxJNoxiG3o2SAVhs8uvzowyu4ehp3JRE?usp=drive_link",
+      "I created a single page for this basic project that allows users to search and discover new words.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: Dictionary,
+    projectUrl: "https://dictionary-app-hv.vercel.app/",
   },
   {
     title: "GiftConnect",
@@ -115,21 +114,23 @@ export const projectsData = [
       "https://drive.google.com/drive/folders/14z5q_GQ9NrjZMSeCXS07JmKhxYEbzsSy?usp=drive_link",
   },
   {
-    title: "Crunchyroll",
+    title: "T-shirt Design",
     description:
-      "This is the landing page for the anime streaming service 'Crunchyroll'. This web page is static and includes minimal animations.",
-    tags: ["HTML", "CSS"],
-    imageUrl: Crunchyroll,
-    projectUrl: "https://github.com/harshilvaliya/anime-site",
+      "I designed t-shirt for our event 'Ultimate Clash' which is part of college's tech fest 'Xenesis'.",
+    tags: ["Figma"],
+    imageUrl: Tshirt,
+    projectUrl:
+      "https://drive.google.com/drive/folders/1JxJNoxiG3o2SAVhs8uvzowyu4ehp3JRE?usp=drive_link",
   },
-  {
-    title: "Log In & Sign Up Page",
-    description:
-      "I created a single page for this basic project that allows users to sign up and log in. This is a simple component that can be adapted to various projects.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: Login,
-    projectUrl: "https://github.com/harshilvaliya/log-in-page",
-  },
+
+  // {
+  //   title: "Crunchyroll",
+  //   description:
+  //     "This is the landing page for the anime streaming service 'Crunchyroll'. This web page is static and includes minimal animations.",
+  //   tags: ["HTML", "CSS"],
+  //   imageUrl: Crunchyroll,
+  //   projectUrl: "https://github.com/harshilvaliya/anime-site",
+  // },
 ] as const;
 
 export const skillsData = [
