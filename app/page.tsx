@@ -16,6 +16,9 @@ export default function Home() {
       <Projects />
       <Experience />
       <Contact />
+      {/* <h1 className="font-mono text- text-7xl">Harshil Valiya.</h1>
+      <br />
+      <p className="font-mono lowercase text-3xl">Full-Stack Dev</p> */}
     </main>
   );
 }
