@@ -9,6 +9,7 @@ import GiftConnect from "@/public/GiftConnect.png";
 import bhitChitram from "@/public/bhitChitram.png";
 import PetMania from "@/public/Pet-Mania.png";
 import Tshirt from "@/public/back.jpeg";
+import Movie from "@/public/movieflix.png";
 
 export const links = [
   {
@@ -97,12 +98,12 @@ export const projectsData = [
     projectUrl: "https://github.com/special-char/grinding-pandas-pet/tree/main",
   },
   {
-    title: "The Dictionary App",
+    title: "MovieFlix",
     description:
-      "I created a single page for this basic project that allows users to search and discover new words.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: Dictionary,
-    projectUrl: "https://dictionary-app-hv.vercel.app/",
+      "MovieFlix is a web-based application that allows users to search for movies and retrieve their details, including posters, titles, release years, and types.",
+    tags: ["React", "CSS", "OMDB API"],
+    imageUrl: Movie,
+    projectUrl: "https://movieflix-hv.vercel.app/",
   },
   {
     title: "GiftConnect",
@@ -114,6 +115,15 @@ export const projectsData = [
       "https://drive.google.com/drive/folders/14z5q_GQ9NrjZMSeCXS07JmKhxYEbzsSy?usp=drive_link",
   },
   {
+    title: "The Dictionary App",
+    description:
+      "I created a single page for this basic project that allows users to search and discover new words.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: Dictionary,
+    projectUrl: "https://dictionary-app-hv.vercel.app/",
+  },
+
+  {
     title: "T-shirt Design",
     description:
       "I designed t-shirt for our event 'Ultimate Clash' which is part of college's tech fest 'Xenesis'.",
@@ -122,15 +132,6 @@ export const projectsData = [
     projectUrl:
       "https://drive.google.com/drive/folders/1JxJNoxiG3o2SAVhs8uvzowyu4ehp3JRE?usp=drive_link",
   },
-
-  // {
-  //   title: "Crunchyroll",
-  //   description:
-  //     "This is the landing page for the anime streaming service 'Crunchyroll'. This web page is static and includes minimal animations.",
-  //   tags: ["HTML", "CSS"],
-  //   imageUrl: Crunchyroll,
-  //   projectUrl: "https://github.com/harshilvaliya/anime-site",
-  // },
 ] as const;
 
 export const skillsData = [
