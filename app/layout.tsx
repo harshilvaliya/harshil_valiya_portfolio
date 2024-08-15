@@ -7,6 +7,7 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 import AnimCursor from "@/components/animCursor";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,7 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
-}) {;
+}) {
   return (
     <html lang="en" className="!scroll-smooth">
       <body
@@ -33,6 +34,7 @@ export default function RootLayout({
             <Header />
             <AnimCursor />
             {children}
+            <Analytics />
             <Footer />
             <Toaster position="top-right" />
             <ThemeSwitch />
