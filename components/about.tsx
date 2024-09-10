@@ -20,20 +20,25 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-lg">
         I'm in the final year of my Bachelor's degree in{" "}
-        <span className="font-medium italic"> Information Technology </span> ,
-        and I'm quite interested in{" "}
-        <span className="font-medium italic"> Front-end Web Development </span>{" "}
-        , especially <span className="underline font-mono">Next.js</span> . I
-        also have some understanding of{" "}
-        <span className="font-medium italic">Graphic Design</span> . I'm excited
-        to put my talents to use in real-world situations through internships
-        and further develop my knowledge.
+        <span className="font-medium"> Information Technology </span> , and I'm
+        quite interested in{" "}
+        <span className="font-medium underline italic">
+          {" "}
+          Front-end Web Development{" "}
+        </span>{" "}
+        , especially{" "}
+        <span className="underline font-mono bg-gray-200 text-gray-800 px-1 py-0.5 rounded">
+          Next.js
+        </span>{" "}
+        . I also have some understanding of{" "}
+        <span className="font-medium underline italic">Graphic Design</span> .
+        I'm excited to put my talents to use in real-world situations through
+        internships and further develop my knowledge.
       </p>
 
       <p className="mt-3 text-lg">
-        When I'm not coding, I enjoy playing{" "}
-        <span className="italic font-medium">video games</span> & watching{" "}
-        <span className="italic font-medium">movies</span>.
+        When I'm not coding, I enjoy watching{" "}
+        <span className="italic font-medium">movies & animes</span>.
       </p>
     </motion.section>
   );

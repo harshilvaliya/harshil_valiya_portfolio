@@ -3,8 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaFigma } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
-import Crunchyroll from "@/public/crunchyroll.png";
-import Dictionary from "@/public/dictionary-app.png";
+import ChatWithWeb from "@/public/chat-with-web.png";
 import GiftConnect from "@/public/GiftConnect.png";
 import bhitChitram from "@/public/bhitChitram.png";
 import PetMania from "@/public/Pet-Mania.png";
@@ -90,6 +89,21 @@ export const projectsData = [
     projectUrl: "https://bhitchitram.netlify.app/",
   },
   {
+    title: "Chat With Web",
+    description:
+      "Chat with Web is a web-based AI application that allows users to interact with websites through a chat interface, By entering a URL",
+    tags: [
+      "Next.js",
+      "NextUI",
+      "Tailwind",
+      "TypeScript",
+      "AI-Powered API",
+      "Upstash Integration",
+    ],
+    imageUrl: ChatWithWeb,
+    projectUrl: "https://github.com/harshilvaliya/chat-with-web",
+  },
+  {
     title: "Pet Mania",
     description:
       "This e-commerce project was my full-stack development work. Customers can browse the website and purchase products for their pets online.",
@@ -115,15 +129,6 @@ export const projectsData = [
       "https://drive.google.com/drive/folders/14z5q_GQ9NrjZMSeCXS07JmKhxYEbzsSy?usp=drive_link",
   },
   {
-    title: "The Dictionary App",
-    description:
-      "I created a single page for this basic project that allows users to search and discover new words.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: Dictionary,
-    projectUrl: "https://dictionary-app-hv.vercel.app/",
-  },
-
-  {
     title: "T-shirt Design",
     description:
       "I designed t-shirt for our event 'Ultimate Clash' which is part of college's tech fest 'Xenesis'.",
@@ -136,15 +141,15 @@ export const projectsData = [
 
 export const skillsData = [
   "Next.js",
+  "React",
+  "Tailwind CSS",
+  "JavaScript",
+  "TypeScript",
   "HTML5",
   "CSS3",
-  "Tailwind CSS",
-  "Figma",
-  "TypeScript",
-  "JavaScript",
-  "React",
-  "Node.js",
-  "GitHub",
-  "MongoDB",
   "Framer Motion",
+  "Figma",
+  "GitHub",
+  "Node.js",
+  "MongoDB",
 ] as const;
