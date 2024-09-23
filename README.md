@@ -1,6 +1,12 @@
-This is my professional portfolio site.
+# Welcome to My Professional Portfolio Site
 
-I developed this using Nextjs.
+I built this site using Next.js.
 
-In this portfolio, you will find information about me such as my skills, experience, and projects.
+Here, you'll find information about me, including:
 
+- About Me
+- My skills
+- My experience
+- My projects
+
+I hope you find it useful. Let me know if you have any questions or if you'd like to get in touch.
