@@ -24,7 +24,7 @@ export default function About() {
         quite interested in{" "}
         <span className="font-medium underline italic">
           {" "}
-          Front-end Web Development{" "}
+          Frontend Web Development{" "}
         </span>{" "}
         , especially{" "}
         <span className="underline font-mono bg-gray-200 text-gray-800 px-1 py-0.5 rounded">
@@ -32,8 +32,8 @@ export default function About() {
         </span>{" "}
         . I also have some understanding of{" "}
         <span className="font-medium underline italic">Graphic Design</span> .
-        I'm excited to put my talents to use in real-world situations through
-        internships and further develop my knowledge.
+        I'm excited to put my talents to use in real-world situations and I'm
+        currently looking for a job as a frontend web developer.
       </p>
 
       <p className="mt-3 text-lg">

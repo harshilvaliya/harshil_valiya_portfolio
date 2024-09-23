@@ -64,9 +64,9 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Harshil.</span>
         <br />
-        I'm a<span className="font-bold"> Full-Stack developer.</span> I enjoy
-        building sites. My focus is
-        <span className="font-mono font-bold "> Next.js </span>
+        I'm a<span className="font-bold"> Jr. Frontend Web developer.</span> I
+        enjoy building sites.
+        {/* <span className="font-mono font-bold "> Next.js </span> */}
       </motion.h1>
 
       <motion.div

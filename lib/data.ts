@@ -47,7 +47,7 @@ export const experiencesData = [
     date: "2021-2025",
   },
   {
-    title: "Front-end Developer",
+    title: "Frontend Developer",
     location: "SSIP Hackathon",
     description:
       "I served as a frontend developer for the 'KrushiAdhaar' project, where I contributed significantly to developing frontend pages. My responsibilities included crafting PowerPoint presentations and project reports. I utilized HTML and CSS technologies extensively to design and execute various project elements.",
@@ -145,11 +145,9 @@ export const skillsData = [
   "Tailwind CSS",
   "JavaScript",
   "TypeScript",
+  "Figma",
   "HTML5",
   "CSS3",
-  "Framer Motion",
-  "Figma",
+  "Git",
   "GitHub",
-  "Node.js",
-  "MongoDB",
 ] as const;
