@@ -9,6 +9,8 @@ import bhitChitram from "@/public/bhitChitram.png";
 import PetMania from "@/public/Pet-Mania.png";
 import Tshirt from "@/public/back.jpeg";
 import Movie from "@/public/movieflix.png";
+import Pokedex from "@/public/pokedex-home.png";
+import Todo from "@/public/to-do-home.png";
 
 export const links = [
   {
@@ -74,6 +76,38 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Pokedex Web App",
+    description:
+      "A responsive app for exploring the first 151 Pokémon with search, filters, and interactive details.",
+    tags: ["HTML", "CSS", "JavaScript", "PokeAPI"],
+    imageUrl: Pokedex,
+    projectUrl: "https://pokedex-hv.vercel.app/",
+  },
+  {
+    title: "To-Do App",
+    description:
+      "A responsive task management app implementing CRUD operations with local storage for persistence.",
+    tags: ["React", "CSS"],
+    imageUrl: Todo,
+    projectUrl: "https://to-do-react-hv.vercel.app/",
+  },
+  {
+    title: "MovieFlix",
+    description:
+      "MovieFlix is a web-based application that allows users to search for movies and retrieve their details, including posters, titles, release years, and types.",
+    tags: ["React", "CSS", "OMDB API"],
+    imageUrl: Movie,
+    projectUrl: "https://movieflix-hv.vercel.app/",
+  },
+  {
+    title: "Pet Mania",
+    description:
+      "This e-commerce project was my full-stack development work. Customers can browse the website and purchase products for their pets online.",
+    tags: ["Next.js", "Tailwind", "TypeScript"],
+    imageUrl: PetMania,
+    projectUrl: "https://github.com/special-char/grinding-pandas-pet/tree/main",
+  },
+  {
     title: "भित्तचित्रम्",
     description:
       "भित्तचित्रम् , where you can explore and download custom wallpapers for desktop and Android, all created by me.",
@@ -88,37 +122,22 @@ export const projectsData = [
     imageUrl: bhitChitram,
     projectUrl: "https://bhitchitram.netlify.app/",
   },
-  {
-    title: "Chat With Web",
-    description:
-      "Chat with Web is a web-based AI application that allows users to interact with websites through a chat interface, By entering a URL",
-    tags: [
-      "Next.js",
-      "NextUI",
-      "Tailwind",
-      "TypeScript",
-      "AI-Powered API",
-      "Upstash Integration",
-    ],
-    imageUrl: ChatWithWeb,
-    projectUrl: "https://github.com/harshilvaliya/chat-with-web",
-  },
-  {
-    title: "Pet Mania",
-    description:
-      "This e-commerce project was my full-stack development work. Customers can browse the website and purchase products for their pets online.",
-    tags: ["Next.js", "Tailwind", "TypeScript"],
-    imageUrl: PetMania,
-    projectUrl: "https://github.com/special-char/grinding-pandas-pet/tree/main",
-  },
-  {
-    title: "MovieFlix",
-    description:
-      "MovieFlix is a web-based application that allows users to search for movies and retrieve their details, including posters, titles, release years, and types.",
-    tags: ["React", "CSS", "OMDB API"],
-    imageUrl: Movie,
-    projectUrl: "https://movieflix-hv.vercel.app/",
-  },
+  // {
+  //   title: "Chat With Web",
+  //   description:
+  //     "Chat with Web is a web-based AI application that allows users to interact with websites through a chat interface, By entering a URL",
+  //   tags: [
+  //     "Next.js",
+  //     "NextUI",
+  //     "Tailwind",
+  //     "TypeScript",
+  //     "AI-Powered API",
+  //     "Upstash Integration",
+  //   ],
+  //   imageUrl: ChatWithWeb,
+  //   projectUrl: "https://github.com/harshilvaliya/chat-with-web",
+  // },
+
   {
     title: "GiftConnect",
     description:
@@ -140,14 +159,11 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "Next.js",
+  "HTML",
+  "CSS",
+  "JavaScript",
   "React",
   "Tailwind CSS",
-  "JavaScript",
-  "TypeScript",
   "Figma",
-  "HTML5",
-  "CSS3",
   "Git",
-  "GitHub",
 ] as const;

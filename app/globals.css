@@ -13,10 +13,14 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
-
+/* 
 ::selection {
   color: blueviolet;
   background-color: lightpink;
+} */
+
+::selection {
+  background-color: rgba(232, 0, 225, 0.2);
 }
 
 body::-webkit-scrollbar {

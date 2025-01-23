@@ -20,20 +20,16 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-lg">
         I'm in the final year of my Bachelor's degree in{" "}
-        <span className="font-medium"> Information Technology </span> , and I'm
+        <span className="font-medium"> Information Technology</span>, and I'm
         quite interested in{" "}
-        <span className="font-medium underline italic">
+        <span className="italic font-medium underline">
           {" "}
           Frontend Web Development{" "}
-        </span>{" "}
-        , especially{" "}
-        <span className="underline font-mono bg-gray-200 text-gray-800 px-1 py-0.5 rounded">
-          Next.js
-        </span>{" "}
-        . I also have some understanding of{" "}
-        <span className="font-medium underline italic">Graphic Design</span> .
+        </span>
+        . I also have some basic understanding of{" "}
+        <span className="italic font-medium underline">Graphic Design</span> .
         I'm excited to put my talents to use in real-world situations and I'm
-        currently looking for a job as a frontend web developer.
+        currently looking for an internship as a frontend web developer.
       </p>
 
       <p className="mt-3 text-lg">
