@@ -19,18 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-lg">
-        I'm in the final year of my Bachelor's degree in{" "}
-        <span className="font-medium"> Information Technology</span>, and I'm
-        quite interested in{" "}
-        <span className="italic font-medium underline">
-          {" "}
-          Frontend Web Development{" "}
-        </span>
-        . I also have some basic understanding of{" "}
-        <span className="italic font-medium underline">Graphic Design</span> .
-        I'm excited to put my talents to use in real-world situations and I'm
-        currently looking for an internship as a frontend web developer.
-      </p>
+  I completed my{" "}
+  <span className="font-medium">BE in Information Technology</span> in April
+  2025. I’m passionate about{" "}
+  <span className="italic font-medium underline">
+    Frontend Development.
+  </span>
+ Currently, I’m a{" "}
+  <span className="font-medium">Frontend Developer Intern</span> at{" "}
+  <span className="font-medium">InfiniDev</span>, where I’m gaining real-world
+  experience and sharpening my skills.
+</p>
+
 
       <p className="mt-3 text-lg">
         When I'm not coding, I enjoy watching{" "}
